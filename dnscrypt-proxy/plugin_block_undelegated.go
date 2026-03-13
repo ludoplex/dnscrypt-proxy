@@ -1,8 +1,8 @@
 package main
 
 import (
+	"codeberg.org/miekg/dns"
 	"github.com/k-sone/critbitgo"
-	"github.com/miekg/dns"
 )
 
 var undelegatedSet = []string{
@@ -119,6 +119,7 @@ var undelegatedSet = []string{
 	"envoy",
 	"example",
 	"f.f.ip6.arpa",
+	"fritz.box",
 	"grp",
 	"gw==",
 	"home",
